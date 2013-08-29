@@ -34,10 +34,14 @@ end
 
 group :test, :development do
   gem 'rspec-rails'
+  gem 'capybara', '1.1.4'
 end
 
+# For static pages
+gem 'high_voltage'
+
 # Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+# gem 'bcrypt-ruby', '~bun> 3.0.0'
 
 # Use unicorn as the app server
 # gem 'unicorn'
